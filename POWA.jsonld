@@ -1,0 +1,31 @@
+{
+    "@context": [
+        {
+            "@protected": true,
+            "@version": 1.1,
+            "id": "@id",
+            "type": "@type",
+            "proofWalletAccess": {
+                "@context": {
+                    "@propagate": true,
+                    "@protected": true,
+                    "polygon-vocab": "urn:uuid:c2610c4f-0eb5-429b-b819-33027eaba878#",
+                    "xsd": "http://www.w3.org/2001/XMLSchema#",
+                    "adress": {
+                        "@id": "polygon-vocab:adress",
+                        "@type": "xsd:string"
+                    },
+                    "challenge": {
+                        "@id": "polygon-vocab:challenge",
+                        "@type": "xsd:string"
+                    },
+                    "signature": {
+                        "@id": "polygon-vocab:signature",
+                        "@type": "xsd:string"
+                    }
+                },
+                "@id": "urn:uuid:99529e88-0cd2-4c4e-b6c3-a727ac6247e0"
+            }
+        }
+    ]
+}
